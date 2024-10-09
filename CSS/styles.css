@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    /*border: 1px gold dashed;*/
+}
 ul, li {
     list-style: none;
 }
@@ -18,19 +23,25 @@ a {
     background-color: #f7f7f7;
     border-bottom: 1px solid #d8d8d8;
 }
-
+.center {
+    width: 80%;
+    margin: 0 auto;
+}
+#topNav .left {
+    line-height: 26px;
+}
 
 #topNav ul {
     list-style-type: none;
 }
 #topNav li {
     float: left;
+    width: 80px;
 }
 #topNav a {
     line-height: 26px;
     display: inline-block;
 }
-
 .clearFix::after {
     content: "";
     height: 0;
@@ -39,5 +50,152 @@ a {
     visibility: hidden;
     clear: both;
 }
-
-
+#search {
+    width: 500px;
+    height: 86px;
+}
+#searchInner {
+    width: 100%;
+    height: 30px;
+    padding: 3px 3px;
+    border: 1px solid #d8d8d8;
+    margin: 25px 0;
+    background-color: #f7f7f7;
+}
+#searchInner input {
+    display: inline-block;
+    height: 100%;
+}
+#search input[type="button"] {
+    width: 99px;
+    height: 30px;
+    background: url("../images/serch.png");
+    vertical-align: middle;
+}
+#search input[type="text"] {
+    width: 391px;
+}
+#mainNav .center {
+    border-bottom: 1px solid rgb(2,102,163);
+    margin-bottom: 15px;
+}
+#mainNav li{
+    float: left;
+    text-align: center;
+    width: 55px;
+}
+#mainNav li a {
+    color: rgb(2, 102, 163);
+}
+#market ul{
+    height: 220px;
+}
+#market li{
+    width: 305px;
+    height: 13%;
+    background-color: rgb(235,240,246);
+}
+#market ul img {
+    margin: 0 10px;
+}
+#market .title{
+    background-color: rgb(2, 102, 163);
+}
+#market .title a{
+    color: white;
+    margin-left: 30px;
+}
+#ads input[type="button"] {
+    background-image: url("../images/buy.png");
+    /*background-repeat: no-repeat;*/
+    width: 100px;
+    height: 30px;
+}
+header {
+    border-top: 1px rgb(195,215,228) solid;
+    background-color: rgb(235,240,246);
+    font-weight: bold;
+}
+#ads {
+    border: 1px solid rgb(226,226,226);
+    width: 80%;
+    height: 400px;
+}
+.ad {
+    width: 45%;
+}
+.halfAd {
+    width: 100%;
+}
+.display {
+    width: 20%;
+}
+.intro {
+    margin-left: 5px;
+    width: 70%;
+}
+.intro span.red{
+    color: red;
+    font-weight: bold;
+}
+.intro span.original{
+    text-decoration: line-through;
+}
+.intro {
+    line-height: 30px;
+}
+.display img {
+    margin-top: 10px;
+}
+.display input[type="button"]{
+    margin-top: 30px;
+}
+.ad {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#consult {
+    border: 1px solid rgb(226,226,226);
+    height: 402px;
+}
+#consult .title {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    vertical-align: middle;
+    background-color: rgb(226,226,226);
+    border: 1px solid rgb(226,226,226);
+}
+#consult li {
+    height: 30px;
+}
+#consult li img {
+    margin: 0 10px;
+}
+#foodAds .top {
+    color: rgb(0,176,281);
+}
+#foodAds .container{
+    border-top: 3px solid rgb(0,176,281);
+    border-bottom: 1px solid rgb(222,222,222);
+    border-left: 1px solid rgb(222,222,222);
+    border-right: 1px solid rgb(222,222,222);
+}
+.adFood {
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+}
+.red {
+    color: red;
+}
+.gray {
+    color: gray;
+}
+.original {
+    text-decoration: line-through;
+}
+footer {
+    font-size: 12px;
+    text-align: center;
+}
